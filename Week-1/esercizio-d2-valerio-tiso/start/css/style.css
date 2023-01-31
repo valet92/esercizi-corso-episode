@@ -1,0 +1,13 @@
+img{
+    height: 100px;
+}
+
+#table{
+    display: flex; 
+    justify-content: center;
+}
+
+/* #youtube{
+    width: 100px;
+} */
+
