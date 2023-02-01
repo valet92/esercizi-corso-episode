@@ -1,0 +1,53 @@
+
+#logo{ text-align: center;
+}
+
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+#scritta-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    background-color: rgb(255, 225, 168);
+    height: 7vh;
+}
+
+#testoevideo-header{
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+img{border-radius: 50px 10px 10px 10px; }
+
+#featured-in{
+  
+ 
+    
+}
+
+h4#featured-in{
+     /* font-weight: bold; chiedi */
+}
+
+#ingredients p, h2{
+    
+    font-weight: bold;
+    
+}
+
+#make-the-focaccia{
+    
+    font-weight: bold;
+    /* border-left: 100px; chiedi*/
+    
+    
+}
+
