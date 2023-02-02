@@ -34,11 +34,11 @@ img{border-radius: 50px 10px 10px 10px; }
     
 }
 
-h4#featured-in{
-     /* font-weight: bold; chiedi */
+ #featured-in h4 {    /* selettore avanzato che mi seleziona h4 dentro al div con id featured-in*/
+     color: red;
 }
 
-#ingredients p, h2{
+#content p, h2{
     
     font-weight: bold;
     
@@ -57,8 +57,9 @@ body{
     text-align: center;
 }
 
+
+/* ho tolto i pallini dalla lista */
 li{
     list-style: none;
 }
 
-list style type none x i pallini
