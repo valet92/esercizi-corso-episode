@@ -1,0 +1,19 @@
+img{
+
+    width: 120px;
+}
+
+#calendar {
+    display: flex;
+    align-items: center;
+}
+
+#phone {
+    display: flex;
+    align-items: center;
+}
+
+#whatsapp {
+    display: flex;
+    align-items: center;
+}

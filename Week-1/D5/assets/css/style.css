@@ -1,0 +1,169 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+html, body{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+ main {
+    width: 100%; /*impostare sempre di default imp imp imp */
+}
+
+#logo {
+    box-sizing: border-box;
+    height: auto;    
+    text-align: center;
+    background-color: black;
+    padding: 2em 5em 2em 5em;
+    
+}
+
+#logo img{
+    width: 40%;
+}
+
+#main1{
+    background-image: url('../images/banner.jpg');
+    text-align: center;
+    padding: 3em 2em 3em 2em;
+    border-width: 5em;
+    border-color: black;
+}
+
+#main2{
+    text-align: center;
+
+   }
+
+   #main3{
+    text-align: center;
+}
+
+h1 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 2.3rem;
+    
+}
+
+h4 {
+    color: #25a2c3;
+}
+
+h2{
+    color: white;
+}
+
+
+#button  {
+    
+    max-width: 7em;
+    max-height: 15em;
+    margin:  0 auto;  /*posizionato al centro */
+    text-align: center;
+    height: 3em;            /* fondamentale height: 3em; line-height: 3em;  
+                           devono avere lo stesso valore per centrare un testo dentro a un div */
+    line-height: 3em; 
+    background-color: #f04c2f;
+    border-radius: 8%;
+    
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+#button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+#pc1  {
+    margin:  0 auto;
+    border-radius: 50%;
+    
+}
+
+#pc1 img{
+    max-width: 100%; /* fondamentale x adattare le foto*/
+    border-radius: 50%;
+}
+
+#garanzia {
+    background-color: #f04c2f;
+    color: white;
+    text-align: center;
+    padding: 2em 1.5em 2em 1.5em;
+
+}
+
+#garanzia #cit{
+    font-style: italic;
+   
+}
+
+#pc2{
+    
+    margin:  0 auto;
+    text-align: center;
+    padding:1em 1em 1em 1em;
+    border: 2px solid  #dee1e3; /*bordo solid fondamentale per vedere il bordo al div*/
+    
+    
+    
+    
+}
+
+#pc2 img{
+   max-width: 100%; /* fondamentale x adattare le foto */
+    
+}
+
+#impara-ora{
+    margin:  0 auto;
+    text-align: center;
+    padding:1em 1em 1em 1em;
+    border-width: 5em;
+    border: 2px solid  #dee1e3; /*bordo solid fondamentale per vedere il bordo al div*/
+}
+
+#impara-ora img{
+    max-width: 100%;
+}
+
+#lavora-subito{
+   
+    margin:  0 auto;
+    text-align: center;
+    padding:1em 1em 1em 1em;
+    border: 2px solid  #dee1e3; /*bordo solid fondamentale per vedere il bordo al div*/
+   
+}
+
+#lavora-subito img{
+    max-width: 100%;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    text-align: center;
+    
+}
+
+footer a{
+    color: #c8e7f0;
+}
+
+footer ion-icon {
+    align-items: center;
+}
